@@ -63,7 +63,7 @@ export const projects = [
     desc: "AI-powered learning platform with personalised skill recommendations, multimodal AI chat, course assessments, and progress tracking.",
     icon: "ri-graduation-cap-fill",
     tags: ["fullstack", "ai"],
-    link: "https://skillmind-ai-education-app-fiyw.vercel.app",
+    link: "https://skillmind-ai-education-app-2.vercel.app/",
   },
   {
     name: "Solaimalai wood works website",
