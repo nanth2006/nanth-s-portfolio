@@ -17,7 +17,7 @@ export default function About() {
         <div className="section-head reveal">
           <div className="eyebrow">About Me</div>
           <h2 className="section-title">
-            From Nagapattinam, <span className="glow-text">building for the web.</span>
+            From pazhiyanchiyanallur, <span className="glow-text">building for the web.</span>
           </h2>
           <p className="section-desc">
             B.Tech Information Technology student at EGS Pillay Engineering College (2024–2028),
