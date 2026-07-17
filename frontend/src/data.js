@@ -1,7 +1,7 @@
 export const profile = {
   name: "Nanthakumar K",
   role: "Full Stack Developer",
-  location: "Nagapattinam, Tamil Nadu",
+  location: "Pazhiyanchiyanallur, Tamil Nadu",
   email: "nanthakumar2006geetha02@gmail.com",
   phone: "9976193689",
   github: "https://github.com/nanth2006",
@@ -16,7 +16,8 @@ export const education = [
     degree: "B.Tech – Information Technology",
     period: "2024 – 2028",
     institute: "EGS Pillay Engineering College",
-    score: null,
+    
+     score: "9.0CGPA",
     icon: "ri-graduation-cap-fill",
   },
   {
@@ -65,7 +66,7 @@ export const projects = [
     link: "https://skillmind-ai-education-app-fiyw.vercel.app",
   },
   {
-    name: "Annai Fathima Glass & Plywood Store",
+    name: "Solaimalai wood works website",
     tech: "MongoDB · Express.js · React.js · Node.js (MERN)",
     desc: "Full-stack business website for a local store, featuring product showcase, services listing, and contact details with responsive design.",
     icon: "ri-store-2-fill",
@@ -81,12 +82,12 @@ export const projects = [
     link: "#",
   },
   {
-    name: "Professional Portfolio",
+    name: "MY PORTFOLIO WEBSITE",
     tech: "React.js · Next.js · Tailwind CSS",
     desc: "Advanced portfolio built with Next.js for server-side rendering, improved performance, and SEO optimisation.",
     icon: "ri-user-star-fill",
     tags: ["frontend"],
-    link: "#",
+    link: "https://nanth-s-portfolio.vercel.app/",
   },
   {
     name: "Instagram Simple Clone",
@@ -94,7 +95,7 @@ export const projects = [
     desc: "Pixel-perfect Instagram UI clone replicating core feed, stories, and profile layout.",
     icon: "ri-instagram-fill",
     tags: ["frontend"],
-    link: "#",
+    link: "https://github.com/nanth2006/instagram-clone-app",
   },
   {
     name: "Calculator App",
@@ -102,7 +103,7 @@ export const projects = [
     desc: "Fully functional calculator with clean UI, keyboard support, and expression evaluation.",
     icon: "ri-calculator-fill",
     tags: ["frontend"],
-    link: "#",
+    link: "https://github.com/nanth2006/simple-calculator",
   },
   {
     name: "Weather App",
@@ -110,7 +111,7 @@ export const projects = [
     desc: "Real-time weather application fetching live data via a public weather API with location-based search.",
     icon: "ri-cloud-fill",
     tags: ["frontend"],
-    link: "#",
+    link: "https://github.com/nanth2006/Weather-app/tree/main/weather-app",
   },
 ];
 
