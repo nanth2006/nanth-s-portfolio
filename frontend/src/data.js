@@ -116,7 +116,7 @@ export const projects = [
 ];
 
 export const certifications = [
-  { name: "JavaScript (Basic)", org: "HackerRank · Feb 2026", id: "BDE2580DEF0D", icon: "ri-javascript-line",link:"/javascript_basic%20certificate.pdf"},
+  { name: "JavaScript (Basic)", org: "HackerRank · Feb 2026", id: "BDE2580DEF0D", icon: "ri-javascript-line", link: "/javascript_basic%20certificate.pdf" },
   { name: "Python (Basic)", org: "HackerRank · Feb 2026", id: "1F9002B8A03E", icon: "ri-code-s-slash-line" },
   { name: "OOPs in Java", org: "Simplilearn · Feb 2026", id: "9808538", icon: "ri-code-box-line" },
   { name: "Introduction to MERN Stack", org: "Simplilearn · 2026", id: "9777862", icon: "ri-stack-line" },
@@ -124,6 +124,8 @@ export const certifications = [
   { name: "Introduction to Generative AI", org: "Online · Apr 2025", id: null, icon: "ri-robot-2-line" },
   { name: "JavaScript Bootcamp", org: "LetsUpgrade · Mar 2025", id: null, icon: "ri-javascript-line" },
   { name: "Introduction to Java", org: "Sololearn · 2025", id: null, icon: "ri-cup-line" },
+  { name: "Problem Solving Techniques Using Python", org: "Enbott Technologies · Jul 2026", id: "ei612026456", icon: "ri-terminal-box-line" },
+  { name: "Industry Integrated Course – Java", org: "Enbott Technologies · Jul 2026", id: null, icon: "ri-cup-line" },
 ];
 
 export const achievements = [
