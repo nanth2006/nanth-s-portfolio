@@ -37,7 +37,7 @@ export const education = [
 ];
 
 export const skills = [
-  { name: "Java", icon: "ri-code-s-slash-line" },
+  { name: "Java", icon: "ri-code-s-slash-line"  },
   { name: "Python", icon: "ri-code-s-slash-line" },
   { name: "JavaScript", icon: "ri-javascript-line" },
   { name: "React.js", icon: "ri-reactjs-line" },
@@ -116,7 +116,7 @@ export const projects = [
 ];
 
 export const certifications = [
-  { name: "JavaScript (Basic)", org: "HackerRank · Feb 2026", id: "BDE2580DEF0D", icon: "ri-javascript-line" },
+  { name: "JavaScript (Basic)", org: "HackerRank · Feb 2026", id: "BDE2580DEF0D", icon: "ri-javascript-line",link:"/javascript_basic%20certificate.pdf"},
   { name: "Python (Basic)", org: "HackerRank · Feb 2026", id: "1F9002B8A03E", icon: "ri-code-s-slash-line" },
   { name: "OOPs in Java", org: "Simplilearn · Feb 2026", id: "9808538", icon: "ri-code-box-line" },
   { name: "Introduction to MERN Stack", org: "Simplilearn · 2026", id: "9777862", icon: "ri-stack-line" },
