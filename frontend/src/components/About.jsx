@@ -3,7 +3,7 @@ import { profile } from "../data";
 
 const stats = [
   { label: "Real-World Projects", value: "8+" },
-  { label: "Certifications", value: "8" },
+  { label: "Certifications", value: "10" },
   { label: "LeetCode Problems", value: "180+" },
   { label: "Hackathon Wins", value: "2" },
 ];
