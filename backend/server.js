@@ -14,10 +14,7 @@ app.use(express.json());
 // In-memory store for contact messages (swap for MongoDB/Atlas in production)
 const messages = [];
 
-// Email transporter — sends a notification to EMAIL_TO whenever the
-// contact form is submitted. Requires EMAIL_USER/EMAIL_PASS (a Gmail
-// App Password) to be set in backend/.env. If they're missing, the
-// server still runs and stores messages, but email sending is skipped.
+
 const canSendEmail = Boolean(process.env.EMAIL_USER && process.env.EMAIL_PASS);
 
 const transporter = canSendEmail
@@ -85,4 +82,7 @@ app.get("/api/contact", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Backend running on http://localhost:${PORT}`);
+});
+app.get("/", (req, res) => {
+  res.json({ status: "Backend is live", service: "nanthakumar-portfolio-backend" });
 });

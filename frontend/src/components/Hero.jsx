@@ -62,15 +62,15 @@ export default function Hero() {
         <div>
           <div className="eyebrow">Hi, I'm {profile.name}</div>
           <h1
-            style={{
-              fontFamily: "var(--font-display)",
-              fontWeight: 800,
-              fontSize: "clamp(2.8rem, 6.5vw, 5rem)",
-              lineHeight: 1.05,
-              letterSpacing: "-0.02em",
-              marginBottom: "1.5rem",
-            }}
-          >
+  style={{
+    fontFamily: "var(--font-display)",
+    fontWeight: 800,
+    fontSize: "clamp(3.2rem, 7.5vw, 6rem)",
+    lineHeight: 1.05,
+    letterSpacing: "-0.02em",
+    marginBottom: "1.5rem",
+  }}
+>
             Full Stack <span className="glow-text">Developer</span>
           </h1>
           <p style={{ color: "var(--text-muted)", maxWidth: 480, marginBottom: "2.2rem", fontSize: "1.05rem" }}>
